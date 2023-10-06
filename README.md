@@ -1,0 +1,3 @@
+# Fact-checking
+1. Download bert-base-chinese from url: https://huggingface.co/bert-base-chinese and place it in the folder ./bert-base-chinese
+2. 
