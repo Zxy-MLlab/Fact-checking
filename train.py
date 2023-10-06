@@ -16,7 +16,7 @@ import argparse
 import Model
 
 parser = argparse.ArgumentParser(description='Fact-checking')
-parser.add_argument('--origin_data_path', type=str, default="../CHEF", help='original data path')
+parser.add_argument('--origin_data_path', type=str, default="./CHEF", help='original data path')
 parser.add_argument('--bert_model_path', type=str, default="bert-base-chinese", help='bert model path')
 parser.add_argument('--max_length', type=int, default=512, help='max input length')
 parser.add_argument('--gpu', type=int, default=1, help='use gpu is or not?')
